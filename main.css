@@ -1,0 +1,36 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.masthead ,.navbar{
+    background-image: url(./bg-masthead.jpg);
+    background-size: cover;
+
+    
+}
+.masthead .btn{
+    color:white;
+    background-color: #64A19D;
+    
+}
+.back{
+    background-color: black;
+}
+.back i {
+    color: #64A19D !important;
+}
+.showcase .animate.backInLeft{
+animation-direction: 1.2s;
+animation-timing-function: ease-in-out;
+}
+.back .row .card{
+    border-bottom: #64A19D solid 2px;
+    border-right: #64A19D solid 2px;
+}
+.masthead .gradienttext{
+    background: linear-gradient(100deg,rgb(0, 0, 0),rgb(183, 179, 179),rgb(36, 36, 36));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
